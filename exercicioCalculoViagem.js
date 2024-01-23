@@ -6,9 +6,11 @@
  */
 
 const precoC = 5.79; 
-const gastoM = 1; 
-const distancia = 100; 
+const gastoMedio = 12; 
+const distancia = 1580; 
 
-const litrosC = 100/1; 
+const litrosC = distancia / gastoMedio; 
 const valorT = litrosC*precoC;
-console.log("Valor total da viagem: " + valorT);
+console.log("Valor total da viagem: " + valorT.toFixed(2));
+//arrendondando a variável - transformar em texto
+
