@@ -2,7 +2,7 @@
 
 const peso = 60; 
 const altura = 1.59;
-const imc = peso/(altura*altura);
+const imc = peso/ Math.pow(altura,2); // ou imc = peso/(altura*altura)
 
 if(imc < 18.5){
     console.log("Abaixo do peso. IMC = " + imc.toFixed(2));
