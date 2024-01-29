@@ -1,9 +1,11 @@
 // Tabuada 
 
-console.log("===== TABUADA DO 2 ====");
+const numero = 7
+
+console.log("TABUADA DO NÚMERO: " + numero);
 
 for(i = 0; i <= 10; i++){
 
-    console.log(i * 2);
+    console.log(i * numero);
 
 }
